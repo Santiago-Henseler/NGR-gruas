@@ -22,7 +22,7 @@ function enviar_mensaje() {
     Mis aclaraciones/comentarios son: ${txt}
 `;
 
-    var tel = +541135136886;
+    var tel = +541156615583;
 
     var url = `https://api.whatsapp.com/send?phone=${tel}&text=${texto}`;
 
