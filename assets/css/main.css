@@ -16,6 +16,50 @@
   --font-secondary: "Work Sans", sans-serif;
 }
 
+.whatsapp {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 30px;
+    right: 20px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.whatsapp-icon {
+    margin-top: 10px;
+}
+
+.card {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+
+.avatar.sm {
+    width: 2.25rem;
+    height: 2.25rem;
+    font-size: .818125rem;
+}
+
+.table-nowrap .table td,
+.table-nowrap .table th {
+    white-space: nowrap;
+}
+
+.table > :not(caption) > * > * {
+    padding: 0.75rem 1.25rem;
+    border-bottom-width: 1px;
+}
+
+table th {
+    font-weight: 600;
+    background-color: #eeecfd !important;
+}
+
+
 /* Colors */
 :root {
   --color-default: #364d59;
