@@ -17,10 +17,22 @@ function enviar_mensaje() {
 
     var txt = document.getElementById("campo1").value;
 
-    var texto = `Hola me llamo ${nombre}, trabajo en ${emp},
-    y estamos interesados en trabajar con ustedes.
-    Mis aclaraciones/comentarios son: ${txt}
-`;
+    var texto = '';
+
+    if (nombre == '' || emp == '' || txt == ''){
+        
+        texto = `Hola, estoy interesado en trabajar con ustedes.
+    `;
+    }else if(nombre != '' && emp != '' && txt != ''){
+        texto = `Hola me llamo ${nombre}, trabajo en ${emp},
+        y estamos interesados en trabajar con ustedes.
+        Mis aclaraciones/comentarios son: ${txt}
+    `;
+    }else{
+        texto = '';
+    }
+
+
 
     var tel = +541156615583;
 
